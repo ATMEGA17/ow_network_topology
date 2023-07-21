@@ -1,5 +1,0 @@
-openwisp-users @ https://github.com/ATMEGA17/ow_users/tarball/master
-netdiff @ https://github.com/openwisp/netdiff/tarball/master
-jsonfield~=3.1.0
-django-flat-json-widget @ https://github.com/openwisp/django-flat-json-widget/tarball/master
-openwisp-utils @ https://github.com/ATMEGA17/ow_utils/tarball/master

@@ -40,5 +40,10 @@ if sys.argv[-1] == 'publish':
 
 
 setup(
+    platforms=['Platform Independent'],
+    keywords=['django', 'netjson', 'openwrt', 'networking', 'openwisp'],
+    packages=find_packages(exclude=['tests*', 'docs*']),
+    include_package_data=True,
+    zip_safe=False,
     install_requires=get_install_requires(),
 )
